@@ -1,0 +1,6 @@
+typo3*
+vendor*
+composer.lock
+composer.phar
+public/.htaccess
+

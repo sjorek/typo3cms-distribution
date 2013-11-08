@@ -1,0 +1,43 @@
+{
+	"keywords" : [
+		"typo3 dummy"
+	],
+	"name" : "sj/typo3cms-dummy",
+	"type" : "project",
+	"description" : "A dummy installation.",
+	"license" : "GPL-3.0+",
+	"require" : {
+		"php" : ">=5.4",
+		"sj/typo3cms-installers" : "dev-master",
+		"typo3/cms" : "dev-master"
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSInstallers",
+			"name" : "typo3/cms-installers"
+		}, {
+			"type" : "composer",
+			"url" : "http://composer.lightwerk.com/",
+			"name" : "typo3/lightwerk"
+		}, {
+			"type" : "package",
+			"name" : "typo3/cms",
+			"package" : {
+				"name" : "typo3/cms",
+				"type" : "typo3cms-core",
+				"version" : "master",
+				"license" : "GPL-2.0+",
+				"dist" : {
+					"url" : "https://git.typo3.org/Packages/TYPO3.CMS.git/snapshot/master.tar.gz",
+					"type" : "tar"
+				},
+				"source" : {
+					"type" : "git",
+					"url" : "git://git.typo3.org/Packages/TYPO3.CMS",
+					"reference" : "master"
+				}
+			}
+		}
+	],
+	"minimum-stability" : "dev"
+}

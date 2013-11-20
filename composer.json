@@ -11,6 +11,9 @@
 		"sj/typo3cms-installers" : "dev-master",
 		"typo3/cms" : "dev-master"
 	},
+	"require-dev" : {
+		"composer/satis" : "@dev"
+	},
 	"repositories" : [{
 			"type" : "git",
 			"url" : "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSInstallers",

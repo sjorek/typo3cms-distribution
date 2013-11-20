@@ -35,7 +35,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/Packages/TYPO3.CMS",
 					"reference" : "master"
 				},
@@ -56,7 +56,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/TYPO3v4/Extensions/media.git",
 					"reference" : "master"
 				},
@@ -78,7 +78,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
 					"reference" : "master"
 				},

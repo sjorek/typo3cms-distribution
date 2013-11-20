@@ -4,7 +4,7 @@
 	],
 	"name" : "sj/typo3cms-dummy",
 	"type" : "project",
-	"description" : "A dummy installation prepared for migrating contents from \u201CDAM\u201D- to \u201CMedia\u201D-extension.",
+	"description" : "A dummy installation prepared for migrating contents from 'DAM'- to 'Media'-extension.",
 	"license" : "GPL-3.0+",
 	"require" : {
 		"php" : ">=5.4",
@@ -35,7 +35,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/Packages/TYPO3.CMS",
 					"reference" : "master"
 				},
@@ -56,7 +56,7 @@
 					"type" : "zip"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git@github.com:fnagel/t3ext-dam_falmigration.git",
 					"reference" : "master"
 				},
@@ -78,7 +78,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/TYPO3v4/Extensions/media.git",
 					"reference" : "master"
 				},
@@ -100,7 +100,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
 					"reference" : "master"
 				},

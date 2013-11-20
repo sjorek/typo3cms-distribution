@@ -1,7 +1,7 @@
 {
 	"name": "TYPO3 CMS “DAM”- to “Media”-Extension Distribution",
 	"homepage": "http://sjorek.github.io/typo3cms-distributions/dam-media-migration",
-	"output-dir": "build",
+	"output-dir": ".",
 	"repositories": [
 		{
 			"type" : "vcs",

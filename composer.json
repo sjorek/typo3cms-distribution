@@ -1,15 +1,15 @@
 {
 	"keywords" : [
-		"typo3 dummy"
+		"typo3 dam- to media-extension migration dummy"
 	],
 	"name" : "sj/typo3cms-dummy",
 	"type" : "project",
-	"description" : "A dummy installation.",
+	"description" : "A dummy installation prepared for migrating contents from “DAM”- to “Media”-extension.",
 	"license" : "GPL-3.0+",
 	"require" : {
 		"php" : ">=5.4",
 		"typo3/cms" : "dev-master",
-		"typo3/ext-media" : "dev-master"
+		"typo3/ext-dam_falmigration" : "dev-master"
 	},
 	"require-dev" : {
 		"composer/satis" : "@dev"
@@ -45,6 +45,28 @@
 			}
 		}, {
 			"type" : "package",
+			"name" : "typo3/ext-dam_falmigration",
+			"package" : {
+				"name" : "typo3/ext-dam_falmigration",
+				"type" : "typo3cms-extension",
+				"version" : "master",
+				"license" : "GPL-2.0+",
+				"dist" : {
+					"url" : "https://github.com/fnagel/t3ext-dam_falmigration/archive/master.zip",
+					"type" : "zip"
+				},
+				"source" : {
+					"type" : "vcs",
+					"url" : "git@github.com:fnagel/t3ext-dam_falmigration.git",
+					"reference" : "master"
+				},
+				"require" : {
+					"typo3/cms" : "dev-master",
+					"typo3/ext-media" : "dev-master"
+				}
+			}
+		}, {
+			"type" : "package",
 			"name" : "typo3/ext-media",
 			"package" : {
 				"name" : "typo3/ext-media",
@@ -61,7 +83,7 @@
 					"reference" : "master"
 				},
 				"require" : {
-					"sj/typo3cms-installers" : "dev-master",
+					"typo3/cms" : "dev-master",
 					"typo3/ext-vidi" : "dev-master"
 				}
 			}
@@ -83,7 +105,7 @@
 					"reference" : "master"
 				},
 				"require" : {
-					"sj/typo3cms-installers" : "dev-master"
+					"typo3/cms" : "dev-master",
 				}
 			}
 		}

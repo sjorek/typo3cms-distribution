@@ -1,7 +1,7 @@
 {
 	"name": "TYPO3 CMS Distributions",
 	"homepage": "http://sjorek.github.io/typo3cms-distributions/",
-	"output-dir": ".",
+	"output-dir": "repository",
 	"repositories": [
 		{
 			"type" : "vcs",
@@ -40,7 +40,7 @@
 	"archive": {
 		"directory": "archive",
 		"format": "zip",
-		"prefix-url": "http://sjorek.github.io/typo3cms-distributions/",
+		"prefix-url": "http://sjorek.github.io/typo3cms-distributions",
 		"skip-dev": true
 	}
 }

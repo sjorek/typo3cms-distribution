@@ -12,7 +12,7 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "http://sjorek.github.io/typo3cms-distributions/dam-media-migration/archive/lw-typo3cms-installers-v1.0.0-e099a8.zip",
+                    "url": "http://sjorek.github.io/typo3cms-distributions/archive/lw-typo3cms-installers-v1.0.0-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
                     "shasum": "a2c6a9ef6c850a144a6f5fef2ba19a9edfcd92df"
                 },
@@ -24,7 +24,6 @@
                 "extra": {
                     "class": "Lw\\TYPO3CMSInstallers\\TYPO3CMSInstallerPlugin"
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-0": {
                         "": "src/"
@@ -97,7 +96,7 @@
                 "source": {
                     "type": "git",
                     "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
-                    "reference": "284e6f14649e4f8e5a15d3f5bbea3caad3aad840"
+                    "reference": "4ee2201b1ee2b037667a903b623706332b4bbdfc"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -106,7 +105,7 @@
                 "require-dev": {
                     "composer/satis": "@dev"
                 },
-                "time": "2013-11-20 18:07:20",
+                "time": "2013-11-20 18:59:26",
                 "type": "project",
                 "license": [
                     "GPL-3.0+"
@@ -123,7 +122,7 @@
                 "source": {
                     "type": "git",
                     "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
-                    "reference": "e6ff984d55b2a935d0d2f42b1567a8555a7a4512"
+                    "reference": "5ebc28fe80888a7e5f7a2646174fb61340af7b49"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -133,7 +132,7 @@
                 "require-dev": {
                     "composer/satis": "@dev"
                 },
-                "time": "2013-11-20 18:09:03",
+                "time": "2013-11-20 18:36:00",
                 "type": "project",
                 "license": [
                     "GPL-3.0+"
@@ -150,13 +149,13 @@
                 "source": {
                     "type": "git",
                     "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
-                    "reference": "31bbd70c6b58fe01152edad4414ff66cd56085a2"
+                    "reference": "95d4fff40dde76a30c9d6d5b6a422318b7cc16df"
                 },
                 "require": {
                     "composer/satis": "@dev",
                     "php": ">=5.4"
                 },
-                "time": "2013-11-20 18:25:43",
+                "time": "2013-11-20 18:34:14",
                 "type": "project",
                 "license": [
                     "GPL-3.0+"
@@ -173,7 +172,7 @@
                 "source": {
                     "type": "git",
                     "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
-                    "reference": "af9325b5b84a6cfafb8ed604b142aad14a7744f8"
+                    "reference": "367c4b6161d389f583b07a59d57972bad18f3013"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -183,7 +182,7 @@
                 "require-dev": {
                     "composer/satis": "@dev"
                 },
-                "time": "2013-11-20 18:22:29",
+                "time": "2013-11-20 18:35:32",
                 "type": "project",
                 "license": [
                     "GPL-3.0+"

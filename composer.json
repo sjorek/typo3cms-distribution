@@ -86,27 +86,6 @@
 					"sj/typo3cms-installers" : "dev-master"
 				}
 			}
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-vidi",
-			"package" : {
-				"name" : "typo3/ext-vidi",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3CMS/Extensions/vidi.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
-					"reference" : "master"
-				},
-				"require" : {
-					"sj/typo3cms-installers" : "dev-master"
-				}
-			}
 		}
 	],
 	"minimum-stability" : "dev"

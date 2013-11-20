@@ -8,8 +8,7 @@
 	"license" : "GPL-3.0+",
 	"require" : {
 		"php" : ">=5.4",
-		"typo3/cms" : "dev-master",
-		"typo3/ext-media" : "dev-master"
+		"typo3/cms" : "dev-master"
 	},
 	"require-dev" : {
 		"composer/satis" : "@dev"
@@ -37,70 +36,6 @@
 				"source" : {
 					"type" : "git",
 					"url" : "git://git.typo3.org/Packages/TYPO3.CMS",
-					"reference" : "master"
-				},
-				"require" : {
-					"sj/typo3cms-installers" : "dev-master"
-				}
-			}
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-media",
-			"package" : {
-				"name" : "typo3/ext-media",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3v4/Extensions/media.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3v4/Extensions/media.git",
-					"reference" : "master"
-				},
-				"require" : {
-					"sj/typo3cms-installers" : "dev-master",
-					"typo3/ext-vidi" : "dev-master"
-				}
-			}
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-vidi",
-			"package" : {
-				"name" : "typo3/ext-vidi",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3CMS/Extensions/vidi.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
-					"reference" : "master"
-				},
-				"require" : {
-					"sj/typo3cms-installers" : "dev-master"
-				}
-			}
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-vidi",
-			"package" : {
-				"name" : "typo3/ext-vidi",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3CMS/Extensions/vidi.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
 					"reference" : "master"
 				},
 				"require" : {

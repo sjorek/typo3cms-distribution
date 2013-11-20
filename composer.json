@@ -6,6 +6,15 @@
 	"type" : "project",
 	"description" : "A dummy installation.",
 	"license" : "GPL-3.0+",
+	"minimum-stability" : "dev",
+	"scripts" : {
+		"post-install-cmd" : [
+			"( [ -x vendor/bin/satis ] && [ -e repository/satis.json ] ) && vendor/bin/satis -vvv --ansi build repository/satis.json"
+		],
+		"post-update-cmd" : [
+			"( [ -x vendor/bin/satis ] && [ -e repository/satis.json ] ) && vendor/bin/satis -vvv --ansi build repository/satis.json"
+		]
+	},
 	"require" : {
 		"php" : ">=5.4",
 		"typo3/cms" : "dev-master"
@@ -43,6 +52,5 @@
 				}
 			}
 		}
-	],
-	"minimum-stability" : "dev"
+	]
 }

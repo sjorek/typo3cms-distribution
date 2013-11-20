@@ -1,0 +1,267 @@
+{
+    "packages": {
+        "lw/typo3cms-installers": {
+            "v1.0.0": {
+                "name": "lw/typo3cms-installers",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:lightwerk/typo3cms-installers.git",
+                    "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "http://sjorek.github.io/typo3cms-distributions/dam-media-migration/archive/lw-typo3cms-installers-v1.0.0-e099a8.zip",
+                    "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
+                    "shasum": "a2c6a9ef6c850a144a6f5fef2ba19a9edfcd92df"
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "time": "2013-10-02 06:34:55",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Lw\\TYPO3CMSInstallers\\TYPO3CMSInstallerPlugin"
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Felix Oertel",
+                        "email": "fo@lightwerk.com",
+                        "homepage": "https://github.com/lightwerk"
+                    }
+                ],
+                "description": "A TYPO3 CMS Composer installer",
+                "homepage": "https://github.com/lightwerk/typo3cms-installers",
+                "keywords": [
+                    "cms",
+                    "installer",
+                    "typo3"
+                ]
+            },
+            "dev-master": {
+                "name": "lw/typo3cms-installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:lightwerk/typo3cms-installers.git",
+                    "reference": "90892685674f49494bbc1814f553f9e9c0f7ce39"
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "time": "2013-10-02 06:34:55",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Lw\\TYPO3CMSInstallers\\TYPO3CMSInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Felix Oertel",
+                        "email": "fo@lightwerk.com",
+                        "homepage": "https://github.com/lightwerk"
+                    }
+                ],
+                "description": "A TYPO3 CMS Composer installer",
+                "homepage": "https://github.com/lightwerk/typo3cms-installers",
+                "keywords": [
+                    "cms",
+                    "installer",
+                    "typo3"
+                ]
+            }
+        },
+        "sj/typo3cms-dummy": {
+            "dev-master": {
+                "name": "sj/typo3cms-dummy",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
+                    "reference": "284e6f14649e4f8e5a15d3f5bbea3caad3aad840"
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "typo3/cms": "dev-master"
+                },
+                "require-dev": {
+                    "composer/satis": "@dev"
+                },
+                "time": "2013-11-20 18:07:20",
+                "type": "project",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "description": "A dummy installation.",
+                "keywords": [
+                    "typo3 dummy"
+                ]
+            },
+            "dev-dam-media-migration": {
+                "name": "sj/typo3cms-dummy",
+                "version": "dev-dam-media-migration",
+                "version_normalized": "dev-dam-media-migration",
+                "source": {
+                    "type": "git",
+                    "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
+                    "reference": "e6ff984d55b2a935d0d2f42b1567a8555a7a4512"
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "typo3/cms": "dev-master",
+                    "typo3/ext-dam_falmigration": "dev-master"
+                },
+                "require-dev": {
+                    "composer/satis": "@dev"
+                },
+                "time": "2013-11-20 18:09:03",
+                "type": "project",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "description": "A dummy installation prepared for migrating contents from 'DAM'- to 'Media'-extension.",
+                "keywords": [
+                    "typo3 dam- to media-extension migration dummy"
+                ]
+            },
+            "dev-gh-pages": {
+                "name": "sj/typo3cms-dummy",
+                "version": "dev-gh-pages",
+                "version_normalized": "dev-gh-pages",
+                "source": {
+                    "type": "git",
+                    "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
+                    "reference": "31bbd70c6b58fe01152edad4414ff66cd56085a2"
+                },
+                "require": {
+                    "composer/satis": "@dev",
+                    "php": ">=5.4"
+                },
+                "time": "2013-11-20 18:25:43",
+                "type": "project",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "description": "A dummy distribution template repository.",
+                "keywords": [
+                    "typo3 dummy"
+                ]
+            },
+            "dev-media": {
+                "name": "sj/typo3cms-dummy",
+                "version": "dev-media",
+                "version_normalized": "dev-media",
+                "source": {
+                    "type": "git",
+                    "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSDistributions",
+                    "reference": "af9325b5b84a6cfafb8ed604b142aad14a7744f8"
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "typo3/cms": "dev-master",
+                    "typo3/ext-media": "dev-master"
+                },
+                "require-dev": {
+                    "composer/satis": "@dev"
+                },
+                "time": "2013-11-20 18:22:29",
+                "type": "project",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "description": "A dummy “Media”-extension installation.",
+                "keywords": [
+                    "typo3 dummy"
+                ]
+            }
+        },
+        "sj/typo3cms-installers": {
+            "dev-master": {
+                "name": "sj/typo3cms-installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSInstallers",
+                    "reference": "0281f6707c4773f9313de1101a53fbb6538e2c29"
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0",
+                    "lw/typo3cms-installers": "dev-master",
+                    "php": ">=5.4"
+                },
+                "time": "2013-11-20 15:23:20",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Sj\\Composer\\Plugins\\TYPO3CMSInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Sj": "src"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Sj\\Composer\\Scripts\\TYPO3CMSInstallerScript::dispatchCommand"
+                    ],
+                    "post-update-cmd": [
+                        "Sj\\Composer\\Scripts\\TYPO3CMSInstallerScript::dispatchCommand"
+                    ],
+                    "post-package-install": [
+                        "Sj\\Composer\\Scripts\\TYPO3CMSInstallerScript::dispatchPackage"
+                    ],
+                    "post-package-update": [
+                        "Sj\\Composer\\Scripts\\TYPO3CMSInstallerScript::dispatchPackage"
+                    ],
+                    "post-package-uninstall": [
+                        "Sj\\Composer\\Scripts\\TYPO3CMSInstallerScript::dispatchPackage"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0+"
+                ]
+            }
+        },
+        "typo3/cms": {
+            "master": {
+                "name": "typo3/cms",
+                "version": "master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git://git.typo3.org/Packages/TYPO3.CMS",
+                    "reference": "master"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://git.typo3.org/Packages/TYPO3.CMS.git/snapshot/master.tar.gz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "typo3cms-core",
+                "license": [
+                    "GPL-2.0+"
+                ]
+            }
+        }
+    }
+}

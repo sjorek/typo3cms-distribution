@@ -1,6 +1,6 @@
 {
-	"name": "TYPO3 CMS “DAM”- to “Media”-Extension Distribution",
-	"homepage": "http://sjorek.github.io/typo3cms-distributions/dam-media-migration",
+	"name": "TYPO3 CMS Distributions",
+	"homepage": "http://sjorek.github.io/typo3cms-distributions/",
 	"output-dir": ".",
 	"repositories": [
 		{
@@ -39,8 +39,8 @@
 	"require-dependencies": true,
 	"archive": {
 		"directory": "archive",
-		"format": "tar",
-		"prefix-url": "http://sjorek.github.io/typo3cms-distributions/dam-media-migration",
+		"format": "zip",
+		"prefix-url": "http://sjorek.github.io/typo3cms-distributions/",
 		"skip-dev": true
 	}
 }

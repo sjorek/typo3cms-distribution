@@ -2,7 +2,7 @@
 	"keywords" : [
 		"typo3 dummy"
 	],
-	"name" : "sj/typo3cms-media",
+	"name" : "sj/typo3cms-dummy",
 	"type" : "project",
 	"description" : "A dummy “Media”-extension installation.",
 	"license" : "GPL-3.0+",

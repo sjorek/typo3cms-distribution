@@ -34,7 +34,7 @@
 					"type" : "tar"
 				},
 				"source" : {
-					"type" : "vcs",
+					"type" : "git",
 					"url" : "git://git.typo3.org/Packages/TYPO3.CMS",
 					"reference" : "master"
 				},

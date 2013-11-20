@@ -1,6 +1,6 @@
-typo3*
-vendor*
+typo3_src*
+build*
 composer.lock
 composer.phar
 public*
-
+vendor*

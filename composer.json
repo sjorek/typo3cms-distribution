@@ -4,7 +4,7 @@
 	],
 	"name" : "sj/typo3cms-dummy",
 	"type" : "project",
-	"description" : "A dummy installation prepared for migrating contents from “DAM”- to “Media”-extension.",
+	"description" : "A dummy installation prepared for migrating contents from \u201CDAM\u201D- to \u201CMedia\u201D-extension.",
 	"license" : "GPL-3.0+",
 	"require" : {
 		"php" : ">=5.4",
@@ -105,7 +105,7 @@
 					"reference" : "master"
 				},
 				"require" : {
-					"typo3/cms" : "dev-master",
+					"typo3/cms" : "dev-master"
 				}
 			}
 		}

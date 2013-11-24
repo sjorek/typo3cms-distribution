@@ -20,7 +20,7 @@
 		"typo3/cms" : "dev-master"
 	},
 	"require-dev" : {
-		"sj/satis-github-scripts" : "dev-master"
+		"sj/satis-github-scripts" : ">=v0.0.1-alpha"
 	},
 	"repositories" : [{
 		"type" : "composer",

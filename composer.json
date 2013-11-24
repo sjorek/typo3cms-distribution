@@ -23,55 +23,10 @@
 		"sj/satis-github-scripts" : "dev-master"
 	},
 	"repositories" : [{
-			"type" : "composer",
-			"url" : "http://sjorek.github.io/typo3cms-installer",
-			"name" : "sj/typo3cms-installer"
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-media",
-			"package" : {
-				"name" : "typo3/ext-media",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3v4/Extensions/media.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3v4/Extensions/media.git",
-					"reference" : "master"
-				},
-				"require" : {
-					"typo3/cms" : "dev-master",
-					"typo3/ext-vidi" : "dev-master"
-				}
-			}
-		}, {
-			"type" : "package",
-			"name" : "typo3/ext-vidi",
-			"package" : {
-				"name" : "typo3/ext-vidi",
-				"type" : "typo3cms-extension",
-				"version" : "master",
-				"license" : "GPL-2.0+",
-				"dist" : {
-					"url" : "https://git.typo3.org/TYPO3CMS/Extensions/vidi.git/snapshot/master.tar.gz",
-					"type" : "tar"
-				},
-				"source" : {
-					"type" : "git",
-					"url" : "git://git.typo3.org/TYPO3CMS/Extensions/vidi.git",
-					"reference" : "master"
-				},
-				"require" : {
-					"typo3/cms" : "dev-master",
-					"sj/typo3cms-installers" : "dev-master"
-				}
-			}
-		}
-	],
+		"type" : "composer",
+		"url" : "http://sjorek.github.io/typo3cms-distribution",
+		"name" : "sj/typo3cms-distribution"
+	}],
 	"homepage" : "http://sjorek.github.io/typo3cms-distribution",
 	"support" : {
 		"source" : "https://github.com/sjorek/typo3cms-distribution"

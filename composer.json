@@ -16,7 +16,7 @@
 		]
 	},
         "provide" : {
-                "sj/sj/typo3cms-dummy-distribution" : "1.0.*"
+                "sj/typo3cms-dummy-distribution" : "1.0.*"
         },
 	"require" : {
 		"php" : ">=5.4",

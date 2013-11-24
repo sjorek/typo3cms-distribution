@@ -23,11 +23,10 @@
 		"sj/satis-github-scripts" : "dev-master"
 	},
 	"repositories" : [{
-			"type" : "composer",
-			"url" : "http://sjorek.github.io/typo3cms-installer",
-			"name" : "sj/typo3cms-installer"
-		}
-	],
+		"type" : "composer",
+		"url" : "http://sjorek.github.io/typo3cms-distribution",
+		"name" : "sj/typo3cms-distribution"
+	}],
 	"homepage" : "http://sjorek.github.io/typo3cms-distribution",
 	"support" : {
 		"source" : "https://github.com/sjorek/typo3cms-distribution"

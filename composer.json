@@ -15,6 +15,9 @@
 			"[ -x vendor/bin/satis-github-publisher.sh ] && vendor/bin/satis-github-publisher.sh"
 		]
 	},
+        "provide" : {
+                "sj/typo3cms-media-distribution" : "1.0.*"
+        },
 	"require" : {
 		"php" : ">=5.4",
 		"typo3/ext-media" : "dev-master"

@@ -7,8 +7,8 @@
 		"url"                     : "git@github.com:sjorek/typo3cms-distribution.git"
 	}, {
 		"type"                    : "composer",
-		"url"                     : "http://sjorek.github.io/typo3cms-installers",
-		"name"                    : "sj/typo3cms-installers"
+		"url"                     : "http://sjorek.github.io/typo3cms-installer",
+		"name"                    : "sj/typo3cms-installer"
 	}, {
 		"type"                    : "package",
 		"name"                    : "typo3/ext-dam_falmigration",

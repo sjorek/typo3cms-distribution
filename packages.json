@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "b5e40c55cc15a9ea462303c46482eaa5b8839ac4"
+                    "shasum": "9c6ac15367aef31d3c53bffe2dc12d8978058758"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -24,7 +24,7 @@
                 "extra": {
                     "class": "Lw\\TYPO3CMSInstallers\\TYPO3CMSInstallerPlugin"
                 },
-                "installation-source": "source",
+                "installation-source": "dist",
                 "autoload": {
                     "psr-0": {
                         "": "src/"
@@ -103,7 +103,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-satis-github-scripts-6362006ec331deca5d3b152c3ea9bb454c21d7a4-zip-277434.zip",
                     "reference": "6362006ec331deca5d3b152c3ea9bb454c21d7a4",
-                    "shasum": "76b3ca166daee3b7e11a797c3c314935967faf73"
+                    "shasum": "d53b9988575ab300d8871f32d4bad766e821caf1"
                 },
                 "require": {
                     "composer/satis": "dev-master",
@@ -315,7 +315,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-typo3cms-installer-a03090dded70d6fe90e83d8d9c74ac82f7c101a9-zip-54b55f.zip",
                     "reference": "a03090dded70d6fe90e83d8d9c74ac82f7c101a9",
-                    "shasum": "5d75e040b12a86b84b2e8dc80fb4b7d6adde8c61"
+                    "shasum": "9f9392599b8f9be04530fcb85daae17e09fe05d4"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0",
@@ -330,7 +330,7 @@
                 "extra": {
                     "class": "Sj\\Composer\\Plugins\\TYPO3CMSInstallerPlugin"
                 },
-                "installation-source": "source",
+                "installation-source": "dist",
                 "autoload": {
                     "psr-0": {
                         "Sj": "src"

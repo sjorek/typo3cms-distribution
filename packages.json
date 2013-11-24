@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "83c4e3afc6dd0b3826493c70c8701623059eb39a"
+                    "shasum": "f5d387ddf25adcc9fccac6aecc075c7798d83a92"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"

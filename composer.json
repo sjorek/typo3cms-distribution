@@ -2,26 +2,22 @@
 	"keywords" : [
 		"typo3 dummy"
 	],
-	"name" : "sj/typo3cms-dummy",
+	"name" : "sj/typo3cms-distribution",
 	"type" : "project",
-	"description" : "A dummy “Media”-extension installation.",
+	"description" : "A dummy 'Media'-extension installation.",
 	"license" : "GPL-3.0+",
+	"minimum-stability" : "dev",
 	"require" : {
 		"php" : ">=5.4",
-		"typo3/cms" : "dev-master",
 		"typo3/ext-media" : "dev-master"
 	},
 	"require-dev" : {
-		"composer/satis" : "@dev"
+		"sj/satis-github-scripts" : "dev-master"
 	},
 	"repositories" : [{
-			"type" : "git",
-			"url" : "/Users/sjorek/Documents/Projects/a21/Workspace/Sj.TYPO3CMSInstallers",
-			"name" : "typo3/cms-installers"
-		}, {
 			"type" : "composer",
-			"url" : "http://composer.lightwerk.com/",
-			"name" : "typo3/lightwerk"
+			"url" : "http://sjorek.github.io/typo3cms-installers",
+			"name" : "sj/typo3cms-installers"
 		}, {
 			"type" : "package",
 			"name" : "typo3/cms",
@@ -61,7 +57,7 @@
 					"reference" : "master"
 				},
 				"require" : {
-					"sj/typo3cms-installers" : "dev-master",
+					"typo3/cms" : "dev-master",
 					"typo3/ext-vidi" : "dev-master"
 				}
 			}
@@ -83,10 +79,10 @@
 					"reference" : "master"
 				},
 				"require" : {
+					"typo3/cms" : "dev-master",
 					"sj/typo3cms-installers" : "dev-master"
 				}
 			}
 		}
-	],
-	"minimum-stability" : "dev"
+	]
 }

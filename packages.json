@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "f23bb3c55d0c5dc92f8b91b16c29c5dd491faa7d"
+                    "shasum": "9a621e4d13cfaf95cfe9fe937b7b9be20a08ded9"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -138,7 +138,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "3a2957ba95f9ded7859914971e2b48d61cce1552"
+                    "reference": "f7e6752b354520acb30f30bd5d55c3bebd7ea0df"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -147,7 +147,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": "dev-master"
                 },
-                "time": "2013-11-24 18:17:26",
+                "time": "2013-11-24 18:26:50",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -176,7 +176,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "7fe78faa48afee9108d2bf16e2999352bd8ef657"
+                    "reference": "0cc5a39a4fdaadf4e52f156224c3d341e41911a8"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -185,7 +185,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": "dev-master"
                 },
-                "time": "2013-11-24 18:18:09",
+                "time": "2013-11-24 18:25:08",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -214,7 +214,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "d402513ce02c616191621a4fa9957ccac8ade533"
+                    "reference": "4a3d9687b4342c7f3a40976e99805681fe8e931c"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -223,7 +223,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": "dev-master"
                 },
-                "time": "2013-11-24 18:17:52",
+                "time": "2013-11-24 18:25:57",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [

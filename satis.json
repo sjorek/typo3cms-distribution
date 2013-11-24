@@ -5,6 +5,9 @@
 	"repositories"         : [{
 		"type"             : "vcs",
 		"url"              : "git@github.com:sjorek/typo3cms-distribution.git"
+	}, {
+		"type"             : "composer",
+		"url"              : "http://sjorek.github.io/typo3cms-installers"
 	}],
 	"require-all"          : true,
 	"require-dependencies" : true,

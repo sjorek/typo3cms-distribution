@@ -24,8 +24,8 @@
 	},
 	"repositories" : [{
 			"type" : "composer",
-			"url" : "http://sjorek.github.io/typo3cms-installers",
-			"name" : "sj/typo3cms-installers"
+			"url" : "http://sjorek.github.io/typo3cms-installer",
+			"name" : "sj/typo3cms-installer"
 		}, {
 			"type" : "package",
 			"name" : "typo3/ext-media",

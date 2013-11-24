@@ -48,5 +48,9 @@
 				}
 			}
 		}
-	]
+	],
+	"homepage" : "http://sjorek.github.io/typo3cms-distribution",
+	"support" : {
+		"source" : "https://github.com/sjorek/typo3cms-distribution"
+	}
 }

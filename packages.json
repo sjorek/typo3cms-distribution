@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "9c6ac15367aef31d3c53bffe2dc12d8978058758"
+                    "shasum": "34478b3a9591abe99523028478ffbcf2ecf27a0e"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -103,7 +103,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-satis-github-scripts-6362006ec331deca5d3b152c3ea9bb454c21d7a4-zip-277434.zip",
                     "reference": "6362006ec331deca5d3b152c3ea9bb454c21d7a4",
-                    "shasum": "d53b9988575ab300d8871f32d4bad766e821caf1"
+                    "shasum": "1aa9e2f94475a72f97de959e57c22df4a3441a12"
                 },
                 "require": {
                     "composer/satis": "dev-master",
@@ -266,11 +266,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "b38d802a51019c9c03dde94a0c4945413a6e8772"
+                    "reference": "2e8778a7b6c2f3b2fa1b054137ec774599edce9e"
                 },
                 "require": {
                     "php": ">=5.4",
-                    "typo3/ext-media": "dev-master"
+                    "typo3/ext-metadata": "dev-master"
                 },
                 "provide": {
                     "sj/typo3cms-media-distribution": "1.0.*"
@@ -278,7 +278,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": ">=v0.0.1-alpha"
                 },
-                "time": "2013-11-24 22:09:15",
+                "time": "2013-11-25 17:55:49",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -315,7 +315,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-typo3cms-installer-a03090dded70d6fe90e83d8d9c74ac82f7c101a9-zip-54b55f.zip",
                     "reference": "a03090dded70d6fe90e83d8d9c74ac82f7c101a9",
-                    "shasum": "9f9392599b8f9be04530fcb85daae17e09fe05d4"
+                    "shasum": "e7bfa3809ea829f4274764ff94a42051a6b639c4"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0",
@@ -468,6 +468,32 @@
                 "require": {
                     "typo3/cms": "dev-master",
                     "typo3/ext-vidi": "dev-master"
+                },
+                "type": "typo3cms-extension",
+                "license": [
+                    "GPL-2.0+"
+                ]
+            }
+        },
+        "typo3/ext-metadata": {
+            "master": {
+                "name": "typo3/ext-metadata",
+                "version": "master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git://git.typo3.org/TYPO3v4/Extensions/metadata.git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://git.typo3.org/TYPO3v4/Extensions/metadata.git/snapshot/master.tar.gz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms": "dev-master",
+                    "typo3/ext-media": "dev-master"
                 },
                 "type": "typo3cms-extension",
                 "license": [

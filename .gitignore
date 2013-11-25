@@ -1,6 +1,5 @@
 typo3_src*
 build*
-composer.lock
 composer.phar
 public*
 vendor*

@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "88a1a0ef46930cc965ec193b8df2e042cadc64e0"
+                    "shasum": "0319d3829e045cea208ed658c9c233af1703742d"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -103,7 +103,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-satis-github-scripts-6362006ec331deca5d3b152c3ea9bb454c21d7a4-zip-277434.zip",
                     "reference": "6362006ec331deca5d3b152c3ea9bb454c21d7a4",
-                    "shasum": "c9cb0b159f97e15e2e8446526171e233208aab9a"
+                    "shasum": "cc343690d09a09b03912f2c2702f8e5f46806a1f"
                 },
                 "require": {
                     "composer/satis": "dev-master",
@@ -316,7 +316,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-typo3cms-installer-a03090dded70d6fe90e83d8d9c74ac82f7c101a9-zip-54b55f.zip",
                     "reference": "a03090dded70d6fe90e83d8d9c74ac82f7c101a9",
-                    "shasum": "e184f477a82ba16f2ba8005575e9a6ea9c02fa88"
+                    "shasum": "f0461704421151f863f82b8e96e648e18d18bf4a"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0",

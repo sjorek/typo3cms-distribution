@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "7547f6999d8afe85a0542b914d614447772f0a15"
+                    "shasum": "88a1a0ef46930cc965ec193b8df2e042cadc64e0"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -103,7 +103,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-satis-github-scripts-6362006ec331deca5d3b152c3ea9bb454c21d7a4-zip-277434.zip",
                     "reference": "6362006ec331deca5d3b152c3ea9bb454c21d7a4",
-                    "shasum": "ade707222059ece3a45693cb1e23845267d6f6c0"
+                    "shasum": "c9cb0b159f97e15e2e8446526171e233208aab9a"
                 },
                 "require": {
                     "composer/satis": "dev-master",
@@ -225,7 +225,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "f5001b5a2a79b12b6827fb8774d1770dfbceafa7"
+                    "reference": "7c69d85a61371a1c309089bd029e0fd4c4dcdc86"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -238,7 +238,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": ">=v0.0.1-alpha"
                 },
-                "time": "2013-11-25 18:00:37",
+                "time": "2013-11-25 18:09:16",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -316,7 +316,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-typo3cms-installer-a03090dded70d6fe90e83d8d9c74ac82f7c101a9-zip-54b55f.zip",
                     "reference": "a03090dded70d6fe90e83d8d9c74ac82f7c101a9",
-                    "shasum": "aab27747652c87b627fcbd6d001dbcaf5d4cc7c8"
+                    "shasum": "e184f477a82ba16f2ba8005575e9a6ea9c02fa88"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0",

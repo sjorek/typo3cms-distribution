@@ -15,21 +15,22 @@
 			"[ -x vendor/bin/satis-github-publisher.sh ] && vendor/bin/satis-github-publisher.sh"
 		]
 	},
-        "provide" : {
-                "sj/typo3cms-media-distribution" : "1.0.*"
-        },
+	"provide" : {
+		"sj/typo3cms-media-distribution" : "1.0.*"
+	},
 	"require" : {
 		"php" : ">=5.4",
-		"typo3/ext-media" : "dev-master"
+		"typo3/ext-metadata" : "dev-master"
 	},
 	"require-dev" : {
 		"sj/satis-github-scripts" : ">=v0.0.1-alpha"
 	},
 	"repositories" : [{
-		"type" : "composer",
-		"url" : "http://sjorek.github.io/typo3cms-distribution",
-		"name" : "sj/typo3cms-distribution"
-	}],
+			"type" : "composer",
+			"url" : "http://sjorek.github.io/typo3cms-distribution",
+			"name" : "sj/typo3cms-distribution"
+		}
+	],
 	"homepage" : "http://sjorek.github.io/typo3cms-distribution",
 	"support" : {
 		"source" : "https://github.com/sjorek/typo3cms-distribution"

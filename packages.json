@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/lw-typo3cms-installers-d859b6fff896895f77f0dc2ac94e7b0a609fdcc6-zip-e099a8.zip",
                     "reference": "d859b6fff896895f77f0dc2ac94e7b0a609fdcc6",
-                    "shasum": "34478b3a9591abe99523028478ffbcf2ecf27a0e"
+                    "shasum": "7547f6999d8afe85a0542b914d614447772f0a15"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
@@ -103,7 +103,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-satis-github-scripts-6362006ec331deca5d3b152c3ea9bb454c21d7a4-zip-277434.zip",
                     "reference": "6362006ec331deca5d3b152c3ea9bb454c21d7a4",
-                    "shasum": "1aa9e2f94475a72f97de959e57c22df4a3441a12"
+                    "shasum": "ade707222059ece3a45693cb1e23845267d6f6c0"
                 },
                 "require": {
                     "composer/satis": "dev-master",
@@ -184,7 +184,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "706f04f8be5d106421170b4a1943ec7e283713fb"
+                    "reference": "2e19db473fcb8389d6ad58d71da0fb6032e3524f"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -196,7 +196,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": ">=v0.0.1-alpha"
                 },
-                "time": "2013-11-24 22:09:43",
+                "time": "2013-11-25 18:05:23",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -225,11 +225,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "797bfa73a6622d8b329e0c68b6d28b8ac177540d"
+                    "reference": "f5001b5a2a79b12b6827fb8774d1770dfbceafa7"
                 },
                 "require": {
                     "php": ">=5.4",
-                    "typo3/ext-dam_falmigration": "dev-master"
+                    "typo3/ext-dam_falmigration": "dev-master",
+                    "typo3/ext-metadata": "dev-master"
                 },
                 "provide": {
                     "sj/typo3cms-dam-media-migration-distribution": "1.0.*"
@@ -237,7 +238,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": ">=v0.0.1-alpha"
                 },
-                "time": "2013-11-24 22:10:30",
+                "time": "2013-11-25 18:00:37",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -266,7 +267,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:sjorek/typo3cms-distribution.git",
-                    "reference": "2e8778a7b6c2f3b2fa1b054137ec774599edce9e"
+                    "reference": "f5d23ace976ba0eda3ba7a4aa5f92e0ba27b7c52"
                 },
                 "require": {
                     "php": ">=5.4",
@@ -278,7 +279,7 @@
                 "require-dev": {
                     "sj/satis-github-scripts": ">=v0.0.1-alpha"
                 },
-                "time": "2013-11-25 17:55:49",
+                "time": "2013-11-25 18:07:33",
                 "type": "project",
                 "scripts": {
                     "post-install-cmd": [
@@ -315,7 +316,7 @@
                     "type": "zip",
                     "url": "http://sjorek.github.io/typo3cms-distribution/archive/sj-typo3cms-installer-a03090dded70d6fe90e83d8d9c74ac82f7c101a9-zip-54b55f.zip",
                     "reference": "a03090dded70d6fe90e83d8d9c74ac82f7c101a9",
-                    "shasum": "e7bfa3809ea829f4274764ff94a42051a6b639c4"
+                    "shasum": "aab27747652c87b627fcbd6d001dbcaf5d4cc7c8"
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0",
